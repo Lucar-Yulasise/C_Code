@@ -39,6 +39,10 @@ int insert(int arry[],int num){
   
   }
   
+}
 
 
+int delemment(int arry[],int elem){
+  
+  
 }

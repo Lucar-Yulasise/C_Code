@@ -31,7 +31,7 @@ int insert(int arry[],int num){
   for(int i=0;i<num-1;i++){
     if(pos-1==i){
       for(int j=num-1;j>=pos;j--){
-      arry[j] = arry[j-1];
+      arry[j] = arry[j-1];//交换
       
       }
       arry[i] = insertion;

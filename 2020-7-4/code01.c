@@ -9,8 +9,8 @@ int serch(int arry[],int num);
 
 int updata(int num,int index);
 int main(){
-  int arrys[] = {0};  
-  insert(arrys,6);
+  int arrys[10] = {0};  
+  insert(arrys,10);
   
   for(int i=0;i<6;i++){
     printf("%4d",arrys[i]);
